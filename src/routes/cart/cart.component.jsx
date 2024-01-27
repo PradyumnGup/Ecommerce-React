@@ -7,6 +7,7 @@ import {
   selectCartTotal,
 } from "../../store/cart/cart.selector";
 import { useSelector } from "react-redux";
+
 const Cart = () => {
   const cartItems = useSelector(selectCartItems);
   const cartTotal = useSelector(selectCartTotal);
