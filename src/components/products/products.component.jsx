@@ -5,6 +5,7 @@ import { selectSortedProds } from "../../store/products/product.selector";
 import { selectIsSorted } from "../../store/products/product.selector";
 import ProductItem from "../product-item/product-item.component";
 
+
 function Products() {
   const products = useSelector(selectProductsArray);
   const sortedProducts = useSelector(selectSortedProds);
