@@ -8,6 +8,7 @@ import ProductDetail from "./components/product-detail/product-detail.component"
 import { ToastContainer } from "react-toastify";
 import HomeComponent from "./components/home-component/home.component";
 function App() {
+  
   return (
     <div>
       <Routes>
